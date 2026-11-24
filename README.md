@@ -20,6 +20,8 @@ Open `http://127.0.0.1:8000`. Search for `refill` and inspect its source to see 
 
 ## Pandas walkthrough
 
+[Open the hands-on pandas notebook](notebooks/01-clean-and-join.ipynb) to inspect both CSVs, clean and join the rows, and try two practice exercises.
+
 Run `python walkthrough.py` to see the raw labels, cleaned record count, joined sources, and grouped topics. The actual transformations live in [evidence.py](evidence.py).
 
 | Step | What the code does |
