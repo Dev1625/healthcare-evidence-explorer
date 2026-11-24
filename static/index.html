@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Healthcare Evidence Explorer</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <p class="brand">Evidence Explorer</p>
+      <span class="tag">Synthetic dataset</span>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="title">
+      <h1 id="title">Healthcare workflow evidence</h1>
+      <p>Explore operational observations and trace each one back to its source.</p>
+      <dl class="numbers" aria-label="Dataset summary">
+        <div><dt>Evidence records</dt><dd id="count">&ndash;</dd></div>
+        <div><dt>Source documents</dt><dd id="sources">&ndash;</dd></div>
+        <div><dt>Duplicates removed</dt><dd id="duplicates">&ndash;</dd></div>
+      </dl>
+    </section>
+    <div class="workspace">
+      <section class="panel results" aria-labelledby="results-title">
+        <header class="section-head">
+          <h2 id="results-title">Observations</h2>
+          <p id="result-count" aria-live="polite">Loading observations&hellip;</p>
+        </header>
+        <div class="filters">
+          <label for="search">Search evidence
+            <input id="search" type="search" placeholder="Try refill or Forest County">
+          </label>
+          <label for="topic">Topic
+            <select id="topic"><option value="">All topics</option></select>
+          </label>
+        </div>
+        <ul id="records" class="records" aria-label="Evidence results"></ul>
+        <p class="empty" id="empty" hidden></p>
+      </section>
+      <section class="panel detail" aria-labelledby="detail-title">
+        <header class="section-head">
+          <h2 id="detail-title" tabindex="-1">Source details</h2>
+        </header>
+        <div id="source-detail" class="source-detail" aria-live="polite">
+          <p class="placeholder">Select an observation to inspect its metadata.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

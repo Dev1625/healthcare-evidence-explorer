@@ -1,0 +1,10 @@
+record_id,source_id,topic,title,observation,setting,status
+ev-01,s01,Referrals,Referral status lives in three systems,Staff review two inboxes and a fax queue before calling a patient.,Community health,Reported
+ev-02,s02, Medication Access ,Pharmacy transfer resets the call queue,Filling at a second pharmacy creates a separate task with no shared status.,Primary care,Observed
+ev-03,s03,Scheduling,Reminder messages lack a reschedule link,Respondents say they call the front desk for appointment changes.,Outpatient clinic,Reported
+ev-04,s04,referrals,Missing consult reports trigger manual follow-up,A coordinator checks for a report after an externally scheduled visit.,Community health,Observed
+ev-05,s05, Referrals ,Referral closure uses inconsistent labels,The sending and receiving teams mark a referral closed at different points.,Specialty care,Observed
+ev-06,s06,Medication access,Staff assemble refill status by phone,One nurse described calling the pharmacy to reconcile conflicting records.,Primary care,Reported
+ev-07,s07,scheduling,Transportation changes cause last-minute calls,The survey summary records calls from patients seeking a later arrival slot.,,Reported
+ev-08,s08,Transitions,Discharge inbox coverage varies on weekends,Interview notes describe different weekend routing depending on the unit.,Hospital,Reported
+ EV-02 , S02 ,medication access,Pharmacy transfer resets the call queue,Filling at a second pharmacy creates a separate task with no shared status.,Primary care,Observed
